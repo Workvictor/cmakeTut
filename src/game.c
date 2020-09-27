@@ -51,7 +51,7 @@ void game_init()
   dstRect.w = 32;
   dstRect.h = 32;
   SDL_Texture *circle_tex = NULL;
-  circle_tex = IMG_LoadTexture(game_renderer, "../res/circle.png");
+  circle_tex = IMG_LoadTexture(game_renderer, "./res/circle.png");
   if (circle_tex == NULL)
   {
     SDL_Log("textue error %s\n", SDL_GetError());
