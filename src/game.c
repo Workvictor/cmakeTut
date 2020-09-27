@@ -57,7 +57,7 @@ void game_init()
     SDL_Log("textue error %s\n", SDL_GetError());
   }
   SDL_Texture *cross_tex = NULL;
-  cross_tex = IMG_LoadTexture(game_renderer, "../res/cross.png");
+  cross_tex = IMG_LoadTexture(game_renderer, "./res/cross.png");
   if (cross_tex == NULL)
   {
     SDL_Log("textue error %s\n", SDL_GetError());
